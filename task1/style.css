@@ -1,0 +1,22 @@
+@charset "UTF-8";
+main{
+    display: flex;
+    width: 100px
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background: rgb(176, 218, 245);
+    width: 600px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+  }
+  .desenvolvimento{
+      text-align: justify;
+  }
